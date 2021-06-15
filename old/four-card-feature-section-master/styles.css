@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Poppins;
+    src: url(https://fonts.google.com/specimen/Poppins);
+}
+
+body{
+    width: 1444px;
+    background-color: hsl(0, 0%, 98%);
+    font-family: Poppins, sans-serif;
+}
+
+#topText{
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+#middleText{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+#bottomText{
+    font-size: 15px;
+    overflow-wrap: normal;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.weight600{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.weight400{
+    font-weight: 400;
+    color: hsl(234, 12%, 34%);
+}
+
+.weight200{
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
+
+.parentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+}
+
+.topTextContainer{
+    text-align: center;
+}
+
+.tileContainer{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.tile{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 3%;
+    margin: 5%;
+    border-radius: 3%;
+}
