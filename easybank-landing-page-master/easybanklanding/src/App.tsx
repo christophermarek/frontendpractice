@@ -1,5 +1,10 @@
 import img_mockups from './images/image-mockups.png';
 import logo from './images/logo.svg';
+import facebookIcon from './images/icon-facebook.svg';
+import youtubeIcon from './images/icon-youtube.svg';
+import twitterIcon from './images/icon-twitter.svg';
+import pinterestIcon from './images/icon-pinterest.svg';
+import instagramIcon from './images/icon-instagram.svg';
 
 import './App.css';
 
@@ -131,24 +136,24 @@ function App() {
         <div className="iconsAndLogo">
           <img src={logo} alt='' />
           <div className="icons">
-            <img src={""} alt=""></img>
-            <img src={""} alt=""></img>
-            <img src={""} alt=""></img>
-            <img src={""} alt=""></img>
-            <img src={""} alt=""></img>
+            <img src={facebookIcon} alt=""></img>
+            <img src={youtubeIcon} alt=""></img>
+            <img src={twitterIcon} alt=""></img>
+            <img src={pinterestIcon} alt=""></img>
+            <img src={instagramIcon} alt=""></img>
           </div>
         </div>
 
         <div className="footerButtons">
           <div className="footerLeft">
-            <input type="button" value="About Us" />
-            <input type="button" value="Contact" />
-            <input type="button" value="Blog" />
+            <input type="button" value="About Us" className="footerBtn" />
+            <input type="button" value="Contact" className="footerBtn"/>
+            <input type="button" value="Blog" className="footerBtn"/>
           </div>
           <div className="footerRight">
-            <input type="button" value="Careers" />
-            <input type="button" value="Support" />
-            <input type="button" value="Privacy Policy" />
+            <input type="button" value="Careers" className="footerBtn"/>
+            <input type="button" value="Support" className="footerBtn"/>
+            <input type="button" value="Privacy Policy" className="footerBtn"/>
           </div>
         </div>
 
@@ -158,10 +163,6 @@ function App() {
         </div>
 
       </div>
-
-
-
-
 
     </div >
   );
